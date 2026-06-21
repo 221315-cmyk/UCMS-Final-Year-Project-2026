@@ -1,0 +1,203 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  display:flex;
+  background:#f1f5f9;
+}
+
+
+.sidebar{
+
+  width:250px;
+  height:100vh;
+  background:#1e293b;
+  color:white;
+  position:fixed;
+  padding-top:25px;
+
+}
+
+.sidebar h2{
+
+ text-align:center;
+ margin-bottom:35px;
+ font-size:22px;
+
+}
+
+.sidebar ul{
+
+ list-style:none;
+
+}
+
+.sidebar ul li{
+
+ padding:15px 20px;
+ transition:0.3s;
+
+}
+
+.sidebar ul li:hover{
+
+ background:#334155;
+ padding-left:30px;
+
+}
+
+.sidebar ul li a{
+
+ color:white;
+ text-decoration:none;
+ display:block;
+}
+
+.main{
+
+ margin-left:250px;
+ padding:40px;
+ width:100%;
+
+}
+
+.main h1{
+
+ color:#1e293b;
+ margin-bottom:25px;
+}
+
+.form-container{
+ background:white;
+ max-width:750px;
+ padding:35px;
+ border-radius:15px;
+
+ box-shadow:
+ 0 10px 25px rgba(0,0,0,0.12);
+
+}
+
+.form-group{
+ margin-bottom:25px;
+
+}
+
+.form-group label{
+
+ display:block;
+ margin-bottom:8px;
+ font-weight:bold;
+ color:#334155;
+
+}
+
+
+.input-box{
+ display:flex;
+ align-items:center;
+ gap:10px;
+
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+
+ flex:1;
+ padding:13px;
+ border:1px solid #cbd5e1;
+ border-radius:8px;
+ outline:none;
+ font-size:15px;
+
+}
+
+.input-box input:focus,
+.input-box select:focus,
+.input-box textarea:focus{
+
+ border-color:#2563eb;
+
+}
+
+textarea{
+
+ height:130px;
+ resize:none;
+
+}
+
+.voice-btn{
+ width:48px;
+ height:48px;
+
+ border-radius:50%;
+
+ background:#2563eb;
+
+ color:white;
+
+ border:none;
+
+ font-size:22px;
+
+ cursor:pointer;
+
+ display:flex;
+
+ align-items:center;
+
+ justify-content:center;
+
+ transition:0.3s;
+
+}
+
+.voice-btn:hover{
+
+ background:#1d4ed8;
+
+ transform:scale(1.08);
+
+}
+
+button[type="submit"]{
+
+
+ width:100%;
+
+ padding:14px;
+
+ border:none;
+
+ border-radius:8px;
+
+ background:#16a34a;
+
+ color:white;
+
+ font-size:17px;
+
+ cursor:pointer;
+
+ transition:0.3s;
+
+}
+
+button[type="submit"]:hover{
+
+background:#15803d;
+
+}
+
+p{
+
+font-size:16px;
+font-weight:bold;
+
+}
