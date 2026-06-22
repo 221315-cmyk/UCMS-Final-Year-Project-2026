@@ -26,7 +26,6 @@ if($resolvedQuery){
     $resolved = mysqli_fetch_assoc($resolvedQuery)['resolved'];
 }
 
-/* Recent Complaints */
 $recentQuery = mysqli_query($conn, "SELECT * FROM complaints ORDER BY id DESC LIMIT 5");
 ?>
 
